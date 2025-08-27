@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "A short description of ImagePlaceholder."
   spec.description  = "A ImagePlaceholder subclass displays its items as rows of items similar to the App Store Feature tab without a nested UITableView/UICollectionView hack. You can use a single data source for all of your contents. Each section displays its items in a row. CollectionViewShelfLayout supports collection view's header view and footer view similar to table view's tableHeaderView and tableFooterView also sections' header and footer views too"
 
-  spec.homepage     = "http://EXAMPLE/ImagePlaceholder"
+  spec.homepage     = "https://github.com/nicoprasastys93/ImagePlaceholder"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
