@@ -16,5 +16,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/nicoprasastys93/ImagePlaceholder", :tag => "#{spec.version}" }
   spec.ios.deployment_target = "13.0"
   spec.swift_version = "5.0"
-  spec.source_files  = "Sources/**/*"
+  spec.source_files  = "Sources/*.swift"
 end
