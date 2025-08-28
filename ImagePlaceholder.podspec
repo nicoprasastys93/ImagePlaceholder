@@ -17,4 +17,6 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "13.0"
   spec.swift_version = "5.0"
   spec.source_files  = "Sources/*.swift"
+  # Dependencies
+  s.dependency "SDWebImage"
 end
