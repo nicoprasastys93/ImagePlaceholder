@@ -1,0 +1,62 @@
+# -----------------------
+# Xcode & temp files
+# -----------------------
+.DS_Store
+build/
+DerivedData/
+*.xcworkspace
+xcuserdata/
+*.xcuserstate
+
+# -----------------------
+# CocoaPods
+# -----------------------
+Pods/
+Podfile.lock
+
+# -----------------------
+# Swift Package Manager
+# -----------------------
+.build/
+Package.resolved
+
+# -----------------------
+# Carthage
+# -----------------------
+Carthage/Build/
+
+# -----------------------
+# Archives & generated files
+# -----------------------
+*.xcarchive
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# -----------------------
+# Temporary / misc
+# -----------------------
+*.swp
+*.lock
+*.tmp
+*.hmap
+
+# -----------------------
+# Editor-specific
+# -----------------------
+*.idea/
+*.vscode/
+
+# -----------------------
+# Keep library source & podspec
+# -----------------------
+!*.podspec
+!Sources/
+
+# -----------------------
+# Example folder
+# -----------------------
+Example/Pods/
+Example/build/
+Example/*.xcworkspace
+Example/DerivedData/
